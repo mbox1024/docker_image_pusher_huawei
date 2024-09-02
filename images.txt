@@ -21,8 +21,8 @@
 #--platform=linux/arm64 nginx:1.24.0
 
 # redis
---platform=linux/arm64 redis:5.0
---platform=linux/arm64 redis:6.2.6
+#--platform=linux/arm64 redis:5.0
+#--platform=linux/arm64 redis:6.2.6
 
 # Hadoop
-#--platform=linux/arm64 sequenceiq/hadoop-docker:2.7.1
+--platform=linux/arm64 sequenceiq/hadoop-docker:2.7.1
