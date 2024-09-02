@@ -28,4 +28,4 @@
 
 
 # flink
-flink: 1.16.3-scala_2.12
+flink: 1.16.3-scala_2.12-java8
