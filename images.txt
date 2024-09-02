@@ -15,11 +15,10 @@
 #zadam/trilium:0.63.7
 
 # mysql
---platform=linux/arm64 mysql:5.7
 #--platform=linux/arm64 mysql:8
 
 # nginx
-#--platform=linux/arm64 nginx:1.24.0
+--platform=linux/arm64 nginx:1.24.0
 
 # redis
 #--platform=linux/arm64 redis:5.0
