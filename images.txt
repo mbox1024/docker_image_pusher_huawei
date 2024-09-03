@@ -2,10 +2,10 @@
 # prometheus
 #--platform=linux/arm64 prom/prometheus:latest
 #--platform=linux/arm64 prom/prometheus:v2.53.2
---platform=linux/arm64 prom/prometheus:v.2.30.0
---platform=linux/arm64 prom/prometheus:v2.30.0
---platform=linux/arm64 prom/snmp-exporter:v0.21.0
---platform=linux/arm64 prom/alertmanager:v0.20.0
+#--platform=linux/arm64 prom/prometheus:v.2.30.0
+#--platform=linux/arm64 prom/prometheus:v2.30.0
+#--platform=linux/arm64 prom/snmp-exporter:v0.21.0
+#--platform=linux/arm64 prom/alertmanager:v0.20.0
 
 # jdk
 #--platform=linux/arm64 openjdk:6
