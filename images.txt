@@ -2,6 +2,10 @@
 # prometheus
 #--platform=linux/arm64 prom/prometheus:latest
 #--platform=linux/arm64 prom/prometheus:v2.53.2
+--platform=linux/arm64 prom/prometheus:v.2.30.0
+--platform=linux/arm64 prom/prometheus:v2.30.0
+--platform=linux/arm64 prom/snmp-exporter:v0.21.0
+--platform=linux/arm64 prom/alertmanager:v0.20.0
 
 # jdk
 #--platform=linux/arm64 openjdk:6
@@ -10,6 +14,28 @@
 #--platform=linux/arm64 openjdk:11
 #--platform=linux/arm64 openjdk:17
 #--platform=linux/arm64 openjdk:21
+
+# python
+--platform=linux/arm64 python:3.11-slim
+--platform=linux/arm64 python:3.12-slim
+--platform=linux/arm64 python:2.7-slim
+--platform=linux/arm64 python:2.6-slim
+--platform=linux/arm64 python:2.6
+--platform=linux/arm64 python:3.9-slim
+--platform=linux/arm64 python:3.0-slim
+--platform=linux/arm64 python:3.1-slim
+--platform=linux/arm64 python:3.2-slim
+--platform=linux/arm64 python:3.3-slim
+--platform=linux/arm64 python:3.4-slim
+--platform=linux/arm64 python:3.5-slim
+--platform=linux/arm64 python:3.6-slim
+--platform=linux/arm64 python:3.7-slim
+--platform=linux/arm64 python:3.8-slim
+--platform=linux/arm64 python:3.10-slim
+--platform=linux/arm64 python:3.11-slim
+--platform=linux/arm64 python:3.12-slim
+--platform=linux/arm64 python:3.13-slim
+--platform=linux/arm64 python:3.14-slim
 
 # trilium
 #zadam/trilium:0.63.7
@@ -25,7 +51,23 @@
 #--platform=linux/arm64 redis:6.2.6
 
 # Hadoop
-
+--platform=linux/arm64 apache/hadoop:3.3.0
+--platform=linux/arm64 apache/hadoop:3.3.1
+--platform=linux/arm64 apache/hadoop:3.3.2
+--platform=linux/arm64 apache/hadoop:3.3.3
+--platform=linux/arm64 apache/hadoop:3.3.4
+--platform=linux/arm64 apache/hadoop:3.3.5
+--platform=linux/arm64 apache/hadoop:3.3.6
+--platform=linux/arm64 apache/hadoop:3.4.0
 
 # flink
-flink: 1.16.3
+--platform=linux/arm64 apache/flinl:1.19.1
+--platform=linux/arm64 apache/flink:1.19.1
+--platform=linux/arm64 apache/flink:1.18.1
+--platform=linux/arm64 apache/flink:1.18.0
+--platform=linux/arm64 apache/flink:1.19.1
+--platform=linux/arm64 apache/flink:1.18.1
+--platform=linux/arm64 apache/flink:1.19.0
+--platform=linux/arm64 apache/flink:1.18.0
+--platform=linux/arm64 apache/flink:1.17.0
+--platform=linux/arm64 apache/flink:1.17.1
