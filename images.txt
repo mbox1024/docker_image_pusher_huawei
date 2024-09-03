@@ -16,18 +16,15 @@
 #--platform=linux/arm64 openjdk:21
 
 # python
-python:2.7-slim
 python:2.6-slim
-python:3.9-slim
-python:3.0-slim
-python:3.1-slim
-python:3.2-slim
+#python:2.7-slim
 python:3.3-slim
 python:3.4-slim
 python:3.5-slim
 python:3.6-slim
 python:3.7-slim
 python:3.8-slim
+python:3.9-slim
 python:3.10-slim
 python:3.11-slim
 python:3.12-slim
