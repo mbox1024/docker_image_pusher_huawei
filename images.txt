@@ -23,11 +23,11 @@
 #python:3.5-slim
 #python:3.6-slim
 #python:3.7-slim
-python:3.8-slim
-python:3.9-slim
-python:3.10-slim
-python:3.11-slim
-python:3.12-slim
+#python:3.8-slim
+#python:3.9-slim
+#python:3.10-slim
+#python:3.11-slim
+#python:3.12-slim
 
 # trilium
 #zadam/trilium:0.63.7
@@ -43,14 +43,14 @@ python:3.12-slim
 #--platform=linux/arm64 redis:6.2.6
 
 # Hadoop
-#--platform=linux/arm64 apache/hadoop:3.3.0
-#--platform=linux/arm64 apache/hadoop:3.3.1
-#--platform=linux/arm64 apache/hadoop:3.3.2
-#--platform=linux/arm64 apache/hadoop:3.3.3
-#--platform=linux/arm64 apache/hadoop:3.3.4
-#--platform=linux/arm64 apache/hadoop:3.3.5
-#--platform=linux/arm64 apache/hadoop:3.3.6
-#--platform=linux/arm64 apache/hadoop:3.4.0
+--platform=linux/arm64 apache/hadoop:3.3.0
+--platform=linux/arm64 apache/hadoop:3.3.1
+--platform=linux/arm64 apache/hadoop:3.3.2
+--platform=linux/arm64 apache/hadoop:3.3.3
+--platform=linux/arm64 apache/hadoop:3.3.4
+--platform=linux/arm64 apache/hadoop:3.3.5
+--platform=linux/arm64 apache/hadoop:3.3.6
+--platform=linux/arm64 apache/hadoop:3.4.0
 
 # flink
 #--platform=linux/arm64 apache/flinl:1.19.1
