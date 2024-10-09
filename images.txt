@@ -48,9 +48,12 @@
 
 
 # flink
---platform=linux/arm64 apache/flink:1.17.0
---platform=linux/arm64 apache/flink:1.17.1
---platform=linux/arm64 apache/flink:1.18.0
---platform=linux/arm64 apache/flink:1.18.1
---platform=linux/arm64 apache/flink:1.19.0
---platform=linux/arm64 apache/flink:1.19.1
+# --platform=linux/arm64 apache/flink:1.17.0
+# --platform=linux/arm64 apache/flink:1.17.1
+# --platform=linux/arm64 apache/flink:1.18.0
+# --platform=linux/arm64 apache/flink:1.18.1
+# --platform=linux/arm64 apache/flink:1.19.0
+# --platform=linux/arm64 apache/flink:1.19.1
+
+# 思源笔记
+b3log/siyuan:v3.1.8
