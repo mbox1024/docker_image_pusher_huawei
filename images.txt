@@ -56,4 +56,4 @@
 # --platform=linux/arm64 apache/flink:1.19.1
 
 # 思源笔记
-b3log/siyuan:v3.1.8
+b3log/siyuan:v3.1.9
