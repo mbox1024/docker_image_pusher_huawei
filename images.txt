@@ -39,7 +39,9 @@
 
 # nginx
 #--platform=linux/arm64 nginx:1.24.0
---platform=linux/arm64 nginx:1.26.2
+#--platform=linux/arm64 nginx:1.26.2
+nginx:1.24.0
+nginx:1.26.2
 
 # redis
 #--platform=linux/arm64 redis:5.0
