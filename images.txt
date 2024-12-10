@@ -40,8 +40,8 @@
 # nginx
 #--platform=linux/arm64 nginx:1.24.0
 #--platform=linux/arm64 nginx:1.26.2
-nginx:1.24.0
-nginx:1.26.2
+# nginx:1.24.0
+# nginx:1.26.2
 
 # redis
 #--platform=linux/arm64 redis:5.0
@@ -59,4 +59,5 @@ nginx:1.26.2
 # --platform=linux/arm64 apache/flink:1.19.1
 
 # 思源笔记
-b3log/siyuan:v3.1.9
+# b3log/siyuan:v3.1.9
+b3log/siyuan:v3.1.15
