@@ -73,11 +73,11 @@
 # grafana/grafana-oss:11.3.3-ubuntu
 # grafana/grafana-oss:11.3.2-ubuntu
 # grafana/grafana-oss:11.3.1-ubuntu
-grafana/grafana-oss:11.3.0+security-01-ubuntu
-grafana/grafana-oss:11.3.0-ubuntu
-# grafana/grafana-oss:11.2.7-ubuntu
-# grafana/grafana-oss:11.2.6-ubuntu
-# grafana/grafana-oss:11.2.5-ubuntu
+# grafana/grafana-oss:11.3.0+security-01-ubuntu
+# grafana/grafana-oss:11.3.0-ubuntu
+grafana/grafana-oss:11.2.7-ubuntu
+grafana/grafana-oss:11.2.6-ubuntu
+grafana/grafana-oss:11.2.5-ubuntu
 # grafana/grafana-oss:11.2.4-ubuntu
 # grafana/grafana-oss:11.2.3+security-01-ubuntu
 # grafana/grafana-oss:11.2.3-ubuntu
