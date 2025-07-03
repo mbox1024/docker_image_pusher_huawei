@@ -59,6 +59,9 @@ registry.cn-hangzhou.aliyuncs.com 即 ALIYUN_REGISTRY(阿里云仓库地址)<br>
 shrimp-images 即 ALIYUN_NAME_SPACE(阿里云命名空间)<br>
 alpine 即 阿里云中显示的镜像名<br>
 
+使用华为云，去华为云【容器镜像服务 SWR】服务的【总览】里面，创建登陆指令（为了安全，临时的即可）<br>
+然后将登陆指令里面的用户、密码和仓库地址填写到变量里面，命名空间也看个人创建的命名空间的名称是什么，也添加到对应的环境变量里面即可
+
 ### 多架构
 需要在images.txt中用 --platform=xxxxx手动指定镜像架构
 指定后的架构会以前缀的形式放在镜像名字前面
