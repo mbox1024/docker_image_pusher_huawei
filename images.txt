@@ -61,12 +61,19 @@
 # b3log/siyuan:v3.1.15
 
 # granfana
+# how to use
+# 1、docker run -d --name=grafana -p 3000:3000 grafana/grafana
+# 2、default admin user credentials are admin/admin
+#
 # grafana/grafana-oss:3.1.1-ubuntu
 # grafana/grafana-oss:3.1.0-ubuntu
 # grafana/grafana-oss:3.0.4-ubuntu
 # grafana/grafana-oss:2.6.0-ubuntu
 
 # mongo db
+# how to use
+# docker run --name mongodb -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=user -e MONGO_INITDB_ROOT_PASSWORD=pass mongodb/mongodb-community-server:$MONGODB_VERSION
+# 
 # mongodb/mongodb-community-server:6.0.22-ubuntu2204
 # mongodb/mongodb-community-server:6.0.7-ubuntu2204
 # mongodb/mongodb-community-server:7.0.1-ubuntu2204
@@ -74,13 +81,19 @@
 # mongodb/mongodb-community-server:6.0.24-ubuntu2204
 
 # mysql
-mysql/mysql-server:8.0.32
-mysql/mysql-server:8.0.32-amd64
-mysql/mysql-server:8.0.31
-mysql/mysql-server:8.0.28-amd64
-mysql/mysql-server:8.0
-mysql/mysql-server:5.7.41
-mysql/mysql-server:5.7.36
-mysql/mysql-server:5.6.51
-mysql/mysql-server:5.6.47
-mysql/mysql-server:5.5.62
+# how to use
+# 1、docker run --name=mysql1 -d mysql/mysql-server:tag
+# 2、docker logs mysql1 2>&1 | grep GENERATED（获取密码）
+# 3、docker exec -it mysql1 mysql -uroot -p
+# 4、ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
+#
+# mysql/mysql-server:8.0.32
+# mysql/mysql-server:8.0.32-amd64
+# mysql/mysql-server:8.0.31
+# mysql/mysql-server:8.0.28-amd64
+# mysql/mysql-server:8.0
+# mysql/mysql-server:5.7.41
+# mysql/mysql-server:5.7.36
+# mysql/mysql-server:5.6.51
+# mysql/mysql-server:5.6.47
+# mysql/mysql-server:5.5.62
