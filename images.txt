@@ -47,8 +47,6 @@
 #--platform=linux/arm64 redis:5.0
 #--platform=linux/arm64 redis:6.2.6
 
-# Hadoop
-
 
 # flink
 # --platform=linux/arm64 apache/flink:1.17.0
