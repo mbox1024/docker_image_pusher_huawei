@@ -139,6 +139,17 @@
 # elasticsearch:7.14.0
 # elasticsearch:7.0.1
 # elasticsearch:7.0.0
-elasticsearch:6.8.9
-elasticsearch:6.8.8
-elasticsearch:6.8.7
+# elasticsearch:6.8.9
+# elasticsearch:6.8.8
+# elasticsearch:6.8.7
+
+# hadoop
+apache/hadoop:3.4.1
+apache/hadoop:3.4.0
+apache/hadoop:3.4
+apache/hadoop:3.3.6
+apache/hadoop:3.3.5
+apache/hadoop:3
+apache/hadoop:2.10.2
+apache/hadoop:2.10
+apache/hadoop:2
