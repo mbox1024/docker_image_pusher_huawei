@@ -59,27 +59,27 @@
 # 思源笔记
 # b3log/siyuan:v3.1.9
 # b3log/siyuan:v3.1.15
-b3log/siyuan:v3.3.1
-b3log/siyuan:v3.3.0
-b3log/siyuan:v3.2.1
-b3log/siyuan:v3.2.0
-b3log/siyuan:v3.1.32
-b3log/siyuan:v3.1.31
-b3log/siyuan:v3.1.30
-b3log/siyuan:v3.1.29
-b3log/siyuan:v3.1.28
-b3log/siyuan:v3.1.27
-b3log/siyuan:v3.1.26
-b3log/siyuan:v3.1.25
-b3log/siyuan:v3.1.24
-b3log/siyuan:v3.1.23
-b3log/siyuan:v3.1.22
-b3log/siyuan:v3.1.21
-b3log/siyuan:v3.1.20
-b3log/siyuan:v3.1.19
-b3log/siyuan:v3.1.18
-b3log/siyuan:v3.1.17
-b3log/siyuan:v3.1.16
+# b3log/siyuan:v3.3.1
+# b3log/siyuan:v3.3.0
+# b3log/siyuan:v3.2.1
+# b3log/siyuan:v3.2.0
+# b3log/siyuan:v3.1.32
+# b3log/siyuan:v3.1.31
+# b3log/siyuan:v3.1.30
+# b3log/siyuan:v3.1.29
+# b3log/siyuan:v3.1.28
+# b3log/siyuan:v3.1.27
+# b3log/siyuan:v3.1.26
+# b3log/siyuan:v3.1.25
+# b3log/siyuan:v3.1.24
+# b3log/siyuan:v3.1.23
+# b3log/siyuan:v3.1.22
+# b3log/siyuan:v3.1.21
+# b3log/siyuan:v3.1.20
+# b3log/siyuan:v3.1.19
+# b3log/siyuan:v3.1.18
+# b3log/siyuan:v3.1.17
+# b3log/siyuan:v3.1.16
 
 # granfana
 # how to use
@@ -174,3 +174,50 @@ b3log/siyuan:v3.1.16
 # apache/hadoop:2.10.2
 # apache/hadoop:2.10
 # apache/hadoop:2
+
+# prometheus
+prom/prometheus:v3.5.0
+prom/prometheus:v3.4.2
+prom/prometheus:v3.4.1
+prom/prometheus:v3.4.0
+prom/prometheus:v3.3.1
+prom/prometheus:v3.3.0
+prom/prometheus:v2.54.0
+prom/prometheus:v2.53.5
+prom/prometheus:v2.53.4
+prom/prometheus:v2.53.3
+prom/prometheus:v2.53.2
+prom/prometheus:v2.53.1
+prom/prometheus:v2.53.0
+prom/prometheus:v2.52.0
+prom/prometheus:v2.51.2
+prom/prometheus:v2.51.1
+prom/prometheus:v2.51.0
+prom/prometheus:v2.50.1
+prom/prometheus:v2.50.0
+prom/prometheus:v2.49.0
+prom/prometheus:v2.47.2
+prom/prometheus:v2.47.1
+prom/prometheus:v2.47.0
+prom/prometheus:v2.45.5
+prom/prometheus:v2.45.4
+prom/prometheus:v2.45.3
+prom/prometheus:v2.45.2
+prom/prometheus:v2.45.1
+prom/prometheus:v2.28.1
+prom/prometheus:v2.28.0
+prom/prometheus:v2.27.1
+prom/prometheus:v2.27.0
+prom/prometheus:v2.26.1
+prom/prometheus:v2.26.0
+prom/prometheus:v2.25.2
+prom/prometheus:v2.25.1
+prom/prometheus:v2.25.0
+prom/prometheus:v2.24.1
+prom/prometheus:v2.24.0
+prom/prometheus:v2.23.0
+prom/prometheus:v2.22.2
+prom/prometheus:v2.22.1
+prom/prometheus:v2.22.0
+prom/prometheus:v2.21.0
+prom/prometheus:v2.20.0
