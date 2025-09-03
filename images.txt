@@ -59,6 +59,27 @@
 # 思源笔记
 # b3log/siyuan:v3.1.9
 # b3log/siyuan:v3.1.15
+b3log/siyuan:v3.3.1
+b3log/siyuan:v3.3.0
+b3log/siyuan:v3.2.1
+b3log/siyuan:v3.2.0
+b3log/siyuan:v3.1.32
+b3log/siyuan:v3.1.31
+b3log/siyuan:v3.1.30
+b3log/siyuan:v3.1.29
+b3log/siyuan:v3.1.28
+b3log/siyuan:v3.1.27
+b3log/siyuan:v3.1.26
+b3log/siyuan:v3.1.25
+b3log/siyuan:v3.1.24
+b3log/siyuan:v3.1.23
+b3log/siyuan:v3.1.22
+b3log/siyuan:v3.1.21
+b3log/siyuan:v3.1.20
+b3log/siyuan:v3.1.19
+b3log/siyuan:v3.1.18
+b3log/siyuan:v3.1.17
+b3log/siyuan:v3.1.16
 
 # granfana
 # how to use
@@ -144,12 +165,12 @@
 # elasticsearch:6.8.7
 
 # hadoop
-apache/hadoop:3.4.1
-apache/hadoop:3.4.0
-apache/hadoop:3.4
-apache/hadoop:3.3.6
-apache/hadoop:3.3.5
-apache/hadoop:3
-apache/hadoop:2.10.2
-apache/hadoop:2.10
-apache/hadoop:2
+# apache/hadoop:3.4.1
+# apache/hadoop:3.4.0
+# apache/hadoop:3.4
+# apache/hadoop:3.3.6
+# apache/hadoop:3.3.5
+# apache/hadoop:3
+# apache/hadoop:2.10.2
+# apache/hadoop:2.10
+# apache/hadoop:2
