@@ -222,51 +222,118 @@
 # prom/prometheus:v2.21.0
 # prom/prometheus:v2.20.0
 
+# snmp exporter
+prom/snmp-exporter:v0.29.0
+prom/snmp-exporter:v0.28.0
+prom/snmp-exporter:v0.27.0
+prom/snmp-exporter:v0.26.0
+prom/snmp-exporter:v0.25.0
+prom/snmp-exporter:v0.24.1
+prom/snmp-exporter:v0.24.0
+prom/snmp-exporter:v0.23.0
+prom/snmp-exporter:v0.22.0
+prom/snmp-exporter:v0.21.0
+prom/snmp-exporter:v0.20.0
+prom/snmp-exporter:v0.19.0
+prom/snmp-exporter:v0.18.0
+prom/snmp-exporter:v0.17.0
+prom/snmp-exporter:v0.16.0
+prom/snmp-exporter:v0.15.0
+prom/snmp-exporter:v0.14.0
+prom/snmp-exporter:v0.13.0
+prom/snmp-exporter:v0.12.0
+prom/snmp-exporter:v0.11.0
+prom/snmp-exporter:v0.10.0
+prom/snmp-exporter:v0.9.0
+prom/snmp-exporter:v0.8.0
+prom/snmp-exporter:v0.7.0
+prom/snmp-exporter:v0.6.0
+prom/snmp-exporter:v0.5.0
+prom/snmp-exporter:v0.4.0
+prom/snmp-exporter:v0.3.0
+prom/snmp-exporter:v0.2.0
+prom/snmp-exporter:v0.1.0
+
+# alertmanager
+# docker run --name alertmanager -d -p 127.0.0.1:9093:9093 quay.io/prometheus/alertmanager
+prom/alertmanager:v0.28.1
+prom/alertmanager:v0.28.0
+prom/alertmanager:v0.27.0
+prom/alertmanager:v0.26.0
+prom/alertmanager:v0.25.1
+prom/alertmanager:v0.25.0
+prom/alertmanager:v0.24.0
+prom/alertmanager:v0.23.0
+prom/alertmanager:v0.22.2
+prom/alertmanager:v0.22.1
+prom/alertmanager:v0.22.0
+prom/alertmanager:v0.21.0
+prom/alertmanager:v0.20.0
+prom/alertmanager:v0.19.0
+prom/alertmanager:v0.18.0
+prom/alertmanager:v0.17.0
+prom/alertmanager:v0.16.0
+prom/alertmanager:v0.15.0
+prom/alertmanager:v0.14.0
+prom/alertmanager:v0.13.0
+prom/alertmanager:v0.12.0
+prom/alertmanager:v0.11.0
+prom/alertmanager:v0.10.0
+prom/alertmanager:v0.9.0
+prom/alertmanager:v0.8.0
+prom/alertmanager:v0.7.0
+prom/alertmanager:v0.6.0
+prom/alertmanager:v0.5.0
+prom/alertmanager:v0.4.0
+prom/alertmanager:v0.3.0
+prom/alertmanager:v0.2.0
+prom/alertmanager:v0.1.0
+
 # redis
 # docker run -v /myredis/conf:/usr/local/etc/redis --name myredis redis redis-server /usr/local/etc/redis/redis.conf
-redis:8.2.1
-redis:8.0.3
-redis:8.0
-redis:7.4.5
-redis:7.4.3
-redis:7.4.2
-#redis:7.4.1
-redis:7.2.10
-redis:6.2.19
-redis:5.0.14
-redis:5.0.13
-redis:5.0.12
-redis:5.0.11
-redis:5.0.10
-redis:5.0.9
-redis:5.0.8
-redis:5.0.7
-redis:5.0.6
-redis:5.0.5
-redis:5.0.4
-redis:5.0.3
-redis:5.0.2
-redis:5.0.1
-redis:5.0
-redis:4.0.14
-redis:4.0.13
-redis:4.0.12
-redis:4.0.11
-redis:4.0.10
-redis:4.0.9
-redis:4.0.8
-redis:4.0.7
-redis:4.0.6
-redis:4.0.5
-redis:4.0.4
-redis:4.0.3
-redis:4.0.2
-redis:4.0.1
-redis:4.0.0
-redis:3.0.7
-redis:3.0.6
-redis:3.0.5
-redis:3.0.4
-redis:3.0.3
-redis:3.0.2
-redis:3.0.1
+# redis:8.2.1
+# redis:8.0.3
+# redis:8.0
+# redis:7.4.5
+# redis:7.4.3
+# redis:7.4.2
+# redis:7.4.1
+# redis:7.2.10
+# redis:6.2.19
+# redis:5.0.14
+# redis:5.0.13
+# redis:5.0.12
+# redis:5.0.11
+# redis:5.0.10
+# redis:5.0.9
+# redis:5.0.8
+# redis:5.0.7
+# redis:5.0.6
+# redis:5.0.5
+# redis:5.0.4
+# redis:5.0.3
+# redis:5.0.2
+# redis:5.0.1
+# redis:5.0
+# redis:4.0.14
+# redis:4.0.13
+# redis:4.0.12
+# redis:4.0.11
+# redis:4.0.10
+# redis:4.0.9
+# redis:4.0.8
+# redis:4.0.7
+# redis:4.0.6
+# redis:4.0.5
+# redis:4.0.4
+# redis:4.0.3
+# redis:4.0.2
+# redis:4.0.1
+# redis:4.0.0
+# redis:3.0.7
+# redis:3.0.6
+# redis:3.0.5
+# redis:3.0.4
+# redis:3.0.3
+# redis:3.0.2
+# redis:3.0.1
