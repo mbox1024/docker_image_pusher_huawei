@@ -141,8 +141,8 @@
 #--platform=linux/amd64 postgres:9.6
 #--platform=linux/amd64 postgres:9
 #--platform=linux/amd64 postgres:8.4.22
---platform=linux/amd64 postgres:8.4
---platform=linux/amd64 postgres:8
+#--platform=linux/amd64 postgres:8.4
+#--platform=linux/amd64 postgres:8
 
 # nginx
 #--platform=linux/arm64 nginx:1.24.0
