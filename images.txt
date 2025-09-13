@@ -14,6 +14,62 @@
 #--platform=linux/arm64 openjdk:11
 #--platform=linux/arm64 openjdk:17
 #--platform=linux/arm64 openjdk:21
+--platform=linux/amd64 openjdk:6
+--platform=linux/amd64 openjdk:7
+--platform=linux/amd64 openjdk:8
+--platform=linux/amd64 openjdk:11
+--platform=linux/amd64 openjdk:17
+--platform=linux/amd64 openjdk:21
+--platform linux/amd64 openjdk:26-jdk
+--platform linux/amd64 openjdk:26-ea-jdk
+--platform linux/amd64 openjdk:26-ea-14-jdk
+--platform linux/amd64 openjdk:26-ea-14
+--platform linux/amd64 openjdk:26-ea
+--platform linux/amd64 openjdk:26
+--platform linux/amd64 openjdk:26-trixie
+--platform linux/amd64 openjdk:26-slim-trixie
+--platform linux/amd64 openjdk:26-slim-bookworm
+--platform linux/amd64 openjdk:26-slim
+--platform linux/amd64 openjdk:26-oraclelinux9
+--platform linux/amd64 openjdk:26-oraclelinux8
+--platform linux/amd64 openjdk:26-oracle
+--platform linux/amd64 openjdk:26-jdk-trixie
+--platform linux/amd64 openjdk:26-jdk-slim-trixie
+--platform linux/amd64 openjdk:25-rc-jdk
+--platform linux/amd64 openjdk:25-rc
+--platform linux/amd64 openjdk:25-jdk
+--platform linux/amd64 openjdk:25
+--platform linux/amd64 openjdk:25-slim
+--platform linux/amd64 openjdk:25-rc-oraclelinux9
+--platform linux/amd64 openjdk:25-oraclelinux8
+--platform linux/amd64 openjdk:24-oraclelinux9
+--platform linux/amd64 openjdk:24-oraclelinux8
+--platform linux/amd64 openjdk:23-oraclelinux9
+--platform linux/amd64 openjdk:23-oraclelinux8
+--platform linux/amd64 openjdk:22-oraclelinux9
+--platform linux/amd64 openjdk:22-oraclelinux8
+--platform linux/amd64 openjdk:21-oraclelinux8
+--platform linux/amd64 openjdk:21-oraclelinux7
+--platform linux/amd64 openjdk:20-oraclelinux8
+--platform linux/amd64 openjdk:20-oraclelinux7
+--platform linux/amd64 openjdk:19-oraclelinux8
+--platform linux/amd64 openjdk:19-oraclelinux7
+--platform linux/amd64 openjdk:18-oraclelinux8
+--platform linux/amd64 openjdk:18-oracle
+--platform linux/amd64 openjdk:17-oraclelinux8
+--platform linux/amd64 openjdk:17-oraclelinux7
+--platform linux/amd64 openjdk:17-oracle
+--platform linux/amd64 openjdk:16-oraclelinux8
+--platform linux/amd64 openjdk:16-oraclelinux7
+--platform linux/amd64 openjdk:15-oraclelinux8
+--platform linux/amd64 openjdk:15-oraclelinux7
+--platform linux/amd64 openjdk:14-oraclelinux8
+--platform linux/amd64 openjdk:14-oraclelinux7
+--platform linux/amd64 openjdk:13-oraclelinux7
+--platform linux/amd64 openjdk:12-oraclelinux7
+--platform linux/amd64 openjdk:11-oraclelinux8
+--platform linux/amd64 openjdk:11-oraclelinux7
+--platform linux/amd64 openjdk:10-oraclelinux7
 
 # python
 #python:2.6-slim
