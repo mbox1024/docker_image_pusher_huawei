@@ -95,13 +95,13 @@
 
 # postgres db
 # docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
---platform=linux/amd64 postgres:18rc1-trixie
---platform=linux/amd64 postgres:18rc1
---platform=linux/amd64 postgres:18rc1-bookworm
---platform=linux/amd64 postgres:18rc1-alpine3.22
---platform=linux/amd64 postgres:18rc1-alpine3.21
---platform=linux/amd64 postgres:18rc1-alpine
---platform=linux/amd64 postgres:18
+# --platform=linux/amd64 postgres:18rc1-trixie
+# --platform=linux/amd64 postgres:18rc1
+# --platform=linux/amd64 postgres:18rc1-bookworm
+# --platform=linux/amd64 postgres:18rc1-alpine3.22
+# --platform=linux/amd64 postgres:18rc1-alpine3.21
+# --platform=linux/amd64 postgres:18rc1-alpine
+# --platform=linux/amd64 postgres:18
 --platform=linux/amd64 postgres:17.6-trixie
 --platform=linux/amd64 postgres:17.6
 --platform=linux/amd64 postgres:17-trixie
