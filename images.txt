@@ -150,6 +150,10 @@
 # nginx:1.24.0
 # nginx:1.26.2
 
+# httpd
+--platform=linux/amd64 httpd:2.4.65
+--platform=linux/amd64 httpd:2.4
+
 # redis
 #--platform=linux/arm64 redis:5.0
 #--platform=linux/arm64 redis:6.2.6
