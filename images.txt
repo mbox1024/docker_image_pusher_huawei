@@ -449,3 +449,16 @@
 # redis:3.0.3
 # redis:3.0.2
 # redis:3.0.1
+
+
+### nuclei(漏洞扫描工具)
+# nuclei requires go1.21 to install successfully. Run the following command to get the repo: go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+--platform=linux/arm64 projectdiscovery/nuclei:latest
+--platform=linux/arm64 projectdiscovery/nuclei:v3
+--platform=linux/arm64 projectdiscovery/nuclei:v3.7
+--platform=linux/arm64 projectdiscovery/nuclei:v3.7.0
+
+--platform=linux/amd64 projectdiscovery/nuclei:latest
+--platform=linux/amd64 projectdiscovery/nuclei:v3
+--platform=linux/amd64 projectdiscovery/nuclei:v3.7
+--platform=linux/amd64 projectdiscovery/nuclei:v3.7.0
