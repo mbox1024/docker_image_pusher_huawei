@@ -151,8 +151,8 @@
 # nginx:1.26.2
 
 # httpd
---platform=linux/amd64 httpd:2.4.65
---platform=linux/amd64 httpd:2.4
+#--platform=linux/amd64 httpd:2.4.65
+#--platform=linux/amd64 httpd:2.4
 
 # redis
 #--platform=linux/arm64 redis:5.0
@@ -453,12 +453,17 @@
 
 ### nuclei(漏洞扫描工具)
 # nuclei requires go1.21 to install successfully. Run the following command to get the repo: go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
---platform=linux/arm64 projectdiscovery/nuclei:latest
---platform=linux/arm64 projectdiscovery/nuclei:v3
---platform=linux/arm64 projectdiscovery/nuclei:v3.7
---platform=linux/arm64 projectdiscovery/nuclei:v3.7.0
+#--platform=linux/arm64 projectdiscovery/nuclei:latest
+#--platform=linux/arm64 projectdiscovery/nuclei:v3
+#--platform=linux/arm64 projectdiscovery/nuclei:v3.7
+#--platform=linux/arm64 projectdiscovery/nuclei:v3.7.0
 
---platform=linux/amd64 projectdiscovery/nuclei:latest
---platform=linux/amd64 projectdiscovery/nuclei:v3
---platform=linux/amd64 projectdiscovery/nuclei:v3.7
---platform=linux/amd64 projectdiscovery/nuclei:v3.7.0
+#--platform=linux/amd64 projectdiscovery/nuclei:latest
+#--platform=linux/amd64 projectdiscovery/nuclei:v3
+#--platform=linux/amd64 projectdiscovery/nuclei:v3.7
+#--platform=linux/amd64 projectdiscovery/nuclei:v3.7.0
+
+### mssql server
+mcr.microsoft.com/mssql/server:2019-gdr3-ubuntu-16.04
+mcr.microsoft.com/mssql/server:2019-GDR2-ubuntu-16.04
+mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04
