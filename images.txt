@@ -464,6 +464,42 @@
 #--platform=linux/amd64 projectdiscovery/nuclei:v3.7.0
 
 ### mssql server
-mcr.microsoft.com/mssql/server:2019-gdr3-ubuntu-16.04
-mcr.microsoft.com/mssql/server:2019-GDR2-ubuntu-16.04
-mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04
+#mcr.microsoft.com/mssql/server:2019-gdr3-ubuntu-16.04
+#mcr.microsoft.com/mssql/server:2019-GDR2-ubuntu-16.04
+#mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04
+mcr.microsoft.com/mssql/server:2022-CU24-ubuntu-22.04
+mcr.microsoft.com/mssql/server:2025-CU3-ubuntu-22.04
+mcr.microsoft.com/mssql/server:2025-CU3-ubuntu-24.04
+mcr.microsoft.com/mssql/server:2019-CU32-GDR6-ubuntu-20.04
+
+### oracle database
+# free
+container-registry.oracle.com/database/free:23.26.1.0-arm64
+container-registry.oracle.com/database/free:23.26.1.0
+container-registry.oracle.com/database/free:23.26.1.0-lite-arm64
+container-registry.oracle.com/database/free:23.26.1.0-lite
+container-registry.oracle.com/database/free:23.26.1.0-lite-amd64
+container-registry.oracle.com/database/free:23.26.1.0-lite
+container-registry.oracle.com/database/free:23.26.1.0-amd64
+container-registry.oracle.com/database/free:23.26.1.0
+container-registry.oracle.com/database/free:23.26.0.0-lite-amd64
+container-registry.oracle.com/database/free:23.26.0.0-lite
+container-registry.oracle.com/database/free:23.26.0.0-lite-arm64
+container-registry.oracle.com/database/free:23.26.0.0-lite
+container-registry.oracle.com/database/free:23.26.0.0-arm64
+container-registry.oracle.com/database/free:23.26.0.0
+container-registry.oracle.com/database/free:23.26.0.0-amd64
+container-registry.oracle.com/database/free:23.26.0.0
+container-registry.oracle.com/database/free:23.9.0.0-amd64
+container-registry.oracle.com/database/free:23.9.0.0
+container-registry.oracle.com/database/free:23.9.0.0-lite-arm64
+container-registry.oracle.com/database/free:23.9.0.0-lite
+container-registry.oracle.com/database/free:23.9.0.0-lite-amd64
+container-registry.oracle.com/database/free:23.9.0.0-lite
+container-registry.oracle.com/database/free:23.9.0.0-arm64
+container-registry.oracle.com/database/free:23.9.0.0
+# express
+container-registry.oracle.com/database/express:latest
+container-registry.oracle.com/database/express:21.3.0-xe
+container-registry.oracle.com/database/express:18.4.0-xe
+
