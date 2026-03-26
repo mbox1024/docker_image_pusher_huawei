@@ -504,10 +504,10 @@
 #container-registry.oracle.com/database/express:21.3.0-xe
 #container-registry.oracle.com/database/express:18.4.0-xe
 # enterprise
-container-registry.oracle.com/database/enterprise:23.26.1.0
-container-registry.oracle.com/database/enterprise:19.19.0.0
 container-registry.oracle.com/database/enterprise:19.3.0.0
-container-registry.oracle.com/database/enterprise:21.3.0.0
+container-registry.oracle.com/database/enterprise:19.19.0.0
 container-registry.oracle.com/database/enterprise:12.2.0.1
 container-registry.oracle.com/database/enterprise:12.2.0.1-slim
+container-registry.oracle.com/database/enterprise:21.3.0.0
+container-registry.oracle.com/database/enterprise:23.26.1.0
 
