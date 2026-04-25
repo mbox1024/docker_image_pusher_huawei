@@ -513,10 +513,23 @@
 
 
 ### 禅道开源版
---platform=linux/amd64 easysoft/zentao:22.1-20260420-php7
---platform=linux/amd64 easysoft/zentao:22.1-php7
---platform=linux/amd64 easysoft/zentao:22.1
---platform=linux/amd64 easysoft/zentao:22.1-20260420
---platform=linux/amd64 easysoft/zentao:22.1-20260416-php7
---platform=linux/amd64 easysoft/zentao:22.1-20260416
+#--platform=linux/amd64 easysoft/zentao:22.1-20260420-php7
+#--platform=linux/amd64 easysoft/zentao:22.1-php7
+#--platform=linux/amd64 easysoft/zentao:22.1
+#--platform=linux/amd64 easysoft/zentao:22.1-20260420
+#--platform=linux/amd64 easysoft/zentao:22.1-20260416-php7
+#--platform=linux/amd64 easysoft/zentao:22.1-20260416
+
+### redmine
+--platform=linux/amd64 redmine:6.1.2
+--platform=linux/amd64 redmine:6.1
+--platform=linux/amd64 redmine:6
+--platform=linux/amd64 redmine:6.0.9
+
+### taiga
+taigaio/taiga-back:6.9.0
+taigaio/taiga-front:6.9.0
+taigaio/taiga-events:6.9.0
+taigaio/taiga-events:6.9.0
+taigaio/taiga-protected:6.9.0
 
