@@ -521,15 +521,34 @@
 #--platform=linux/amd64 easysoft/zentao:22.1-20260416
 
 ### redmine
---platform=linux/amd64 redmine:6.1.2
---platform=linux/amd64 redmine:6.1
---platform=linux/amd64 redmine:6
---platform=linux/amd64 redmine:6.0.9
+# --platform=linux/amd64 redmine:6.1.2
+# --platform=linux/amd64 redmine:6.1
+# --platform=linux/amd64 redmine:6
+# --platform=linux/amd64 redmine:6.0.9
 
 ### taiga
-taigaio/taiga-back:6.9.0
-taigaio/taiga-front:6.9.0
-taigaio/taiga-events:6.9.0
-taigaio/taiga-events:6.9.0
-taigaio/taiga-protected:6.9.0
+# taigaio/taiga-back:6.9.0
+# taigaio/taiga-front:6.9.0
+# taigaio/taiga-events:6.9.0
+# taigaio/taiga-events:6.9.0
+# taigaio/taiga-protected:6.9.0
+
+### jump server
+# docker volume create jsdata &> /dev/null
+# docker volume create pgdata &> /dev/null
+# docker run --name jms_all \
+#      -e SECRET_KEY=PleaseChangeMe \
+#      -e BOOTSTRAP_TOKEN=PleaseChangeMe \
+#      -v jsdata:/opt/data \
+#      -v pgdata:/var/lib/postgresql \
+#      -p 2222:2222 \
+#      -p 80:80 jumpserver/jms_all
+# 默认账号: admin
+# 默认密码: ChangeMe
+--platform=linux/amd64 jumpserver/jms_all:v4.10.16
+--platform=linux/amd64 jumpserver/jms_all:v4.10.15
+--platform=linux/amd64 jumpserver/jms_all:v4.10.12
+--platform=linux/amd64 jumpserver/jms_all:v4.10.11
+--platform=linux/amd64 jumpserver/jms_all:v4.10.10
+--platform=linux/amd64 jumpserver/jms_all:v4.10.9
 
