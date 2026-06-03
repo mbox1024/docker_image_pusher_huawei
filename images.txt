@@ -545,10 +545,15 @@
 #      -p 80:80 jumpserver/jms_all
 # 默认账号: admin
 # 默认密码: ChangeMe
---platform=linux/amd64 jumpserver/jms_all:v4.10.16
---platform=linux/amd64 jumpserver/jms_all:v4.10.15
---platform=linux/amd64 jumpserver/jms_all:v4.10.12
---platform=linux/amd64 jumpserver/jms_all:v4.10.11
---platform=linux/amd64 jumpserver/jms_all:v4.10.10
---platform=linux/amd64 jumpserver/jms_all:v4.10.9
+# --platform=linux/amd64 jumpserver/jms_all:v4.10.16
+# --platform=linux/amd64 jumpserver/jms_all:v4.10.15
+# --platform=linux/amd64 jumpserver/jms_all:v4.10.12
+# --platform=linux/amd64 jumpserver/jms_all:v4.10.11
+# --platform=linux/amd64 jumpserver/jms_all:v4.10.10
+# --platform=linux/amd64 jumpserver/jms_all:v4.10.9
+
+### openresty
+--platform=linux/amd64  openresty/openresty:1.29.2.5-alpine
+--platform=linux/amd64  openresty/openresty:1.29.2.5-jammy
+--platform=linux/amd64  openresty/openresty:1.29.2.5-alma
 
