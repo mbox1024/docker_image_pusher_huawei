@@ -192,6 +192,7 @@
 # b3log/siyuan:v3.1.18
 # b3log/siyuan:v3.1.17
 # b3log/siyuan:v3.1.16
+# b3log/siyuan:v3.7.3
 
 # granfana
 # how to use
