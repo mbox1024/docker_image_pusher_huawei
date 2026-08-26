@@ -1,1 +1,1 @@
-nginx:1.30.4
+requarks/wiki:2.5.314
