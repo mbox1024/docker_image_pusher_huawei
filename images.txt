@@ -1,1 +1,1 @@
-requarks/wiki:2.5.314
+requarks/wiki:2.4.107
