@@ -1,1 +1,2 @@
-requarks/wiki:2.4.107
+apache/hertzbeat:1.9.0
+apache/hertzbeat-collector:1.9.0
