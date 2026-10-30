@@ -1,1 +1,14 @@
-
+prom/prometheus:v3.15.1
+prom/prometheus:v3.15.0
+prom/prometheus:v3.14.0
+prom/prometheus:v3.13.5
+prom/prometheus:v3.13.4
+prom/prometheus:v3.13.3
+prom/prometheus:v3.13.2
+prom/prometheus:v3.13.1
+prom/prometheus:v3.13.0
+prom/alertmanager:v0.34.2
+prom/alertmanager:v0.34.1
+prom/alertmanager:v0.34.0
+prom/alertmanager:v0.33.1
+prom/snmp-exporter:v0.31.0
