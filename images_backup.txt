@@ -1,11 +1,4 @@
 #支持指定架构
-# prometheus
-#--platform=linux/arm64 prom/prometheus:latest
-#--platform=linux/arm64 prom/prometheus:v2.53.2
-#--platform=linux/arm64 prom/prometheus:v.2.30.0
-#--platform=linux/arm64 prom/prometheus:v2.30.0
-#--platform=linux/arm64 prom/snmp-exporter:v0.21.0
-#--platform=linux/arm64 prom/alertmanager:v0.20.0
 
 # jdk
 #--platform=linux/arm64 openjdk:6
@@ -353,8 +346,18 @@
 # prom/prometheus:v2.22.0
 # prom/prometheus:v2.21.0
 # prom/prometheus:v2.20.0
+# prom/prometheus:v3.15.1
+# prom/prometheus:v3.15.0
+# prom/prometheus:v3.14.0
+# prom/prometheus:v3.13.5
+# prom/prometheus:v3.13.4
+# prom/prometheus:v3.13.3
+# prom/prometheus:v3.13.2
+# prom/prometheus:v3.13.1
+# prom/prometheus:v3.13.0
 
 # snmp exporter
+# prom/snmp-exporter:v0.31.0
 # prom/snmp-exporter:v0.30.1
 # prom/snmp-exporter:v0.30.0
 # prom/snmp-exporter:v0.29.0
@@ -390,6 +393,10 @@
 
 # alertmanager
 # docker run --name alertmanager -d -p 127.0.0.1:9093:9093 quay.io/prometheus/alertmanager
+# prom/alertmanager:v0.34.2
+# prom/alertmanager:v0.34.1
+# prom/alertmanager:v0.34.0
+# prom/alertmanager:v0.33.1
 # prom/alertmanager:v0.33.0
 # prom/alertmanager:v0.32.2
 # prom/alertmanager:v0.32.1
@@ -432,6 +439,20 @@
 # prom/alertmanager:v0.3.0
 # prom/alertmanager:v0.2.0
 # prom/alertmanager:v0.1.0
+
+# victoriametrics
+# victoriametrics/victoria-metrics:v1.155.0
+# victoriametrics/victoria-metrics:v1.154.1
+# victoriametrics/victoria-metrics:v1.154.0
+# victoriametrics/victoria-metrics:v1.153.0
+# victoriametrics/victoria-metrics:v1.152.0
+# victoriametrics/victoria-metrics:v1.151.0
+# victoriametrics/victoria-metrics:v1.150.0
+# victoriametrics/victoria-metrics:v1.149.0
+# victoriametrics/victoria-metrics:v1.148.0
+# victoriametrics/victoria-metrics:v1.147.0
+# victoriametrics/victoria-metrics:v1.146.0
+# victoriametrics/victoria-metrics:v1.145.0
 
 # redis
 # docker run -v /myredis/conf:/usr/local/etc/redis --name myredis redis redis-server /usr/local/etc/redis/redis.conf
