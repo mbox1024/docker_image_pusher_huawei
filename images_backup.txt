@@ -440,7 +440,7 @@
 # prom/alertmanager:v0.2.0
 # prom/alertmanager:v0.1.0
 
-# victoriametrics
+# victoriametrics单机版
 # victoriametrics/victoria-metrics:v1.155.0
 # victoriametrics/victoria-metrics:v1.154.1
 # victoriametrics/victoria-metrics:v1.154.0
@@ -453,6 +453,46 @@
 # victoriametrics/victoria-metrics:v1.147.0
 # victoriametrics/victoria-metrics:v1.146.0
 # victoriametrics/victoria-metrics:v1.145.0
+
+### victoriametrics集群组件vminsert
+# victoriametrics/vminsert:v1.155.0-cluster
+# victoriametrics/vminsert:v1.154.1-cluster
+# victoriametrics/vminsert:v1.154.0-cluster
+# victoriametrics/vminsert:v1.153.0-cluster
+# victoriametrics/vminsert:v1.152.0-cluster
+# victoriametrics/vminsert:v1.151.0-cluster
+# victoriametrics/vminsert:v1.150.0-cluster
+# victoriametrics/vminsert:v1.149.0-cluster
+# victoriametrics/vminsert:v1.148.0-cluster
+# victoriametrics/vminsert:v1.147.0-cluster
+# victoriametrics/vminsert:v1.146.0-cluster
+# victoriametrics/vminsert:v1.145.0-cluster
+### victoriametrics集群组件vmselect
+# victoriametrics/vmselect:v1.155.0-cluster
+# victoriametrics/vmselect:v1.154.1-cluster
+# victoriametrics/vmselect:v1.154.0-cluster
+# victoriametrics/vmselect:v1.153.0-cluster
+# victoriametrics/vmselect:v1.152.0-cluster
+# victoriametrics/vmselect:v1.151.0-cluster
+# victoriametrics/vmselect:v1.150.0-cluster
+# victoriametrics/vmselect:v1.149.0-cluster
+# victoriametrics/vmselect:v1.148.0-cluster
+# victoriametrics/vmselect:v1.147.0-cluster
+# victoriametrics/vmselect:v1.146.0-cluster
+# victoriametrics/vmselect:v1.145.0-cluster
+### victoriametrics集群组件vmstorage
+# victoriametrics/vmstorage:v1.155.0-cluster
+# victoriametrics/vmstorage:v1.154.1-cluster
+# victoriametrics/vmstorage:v1.154.0-cluster
+# victoriametrics/vmstorage:v1.153.0-cluster
+# victoriametrics/vmstorage:v1.152.0-cluster
+# victoriametrics/vmstorage:v1.151.0-cluster
+# victoriametrics/vmstorage:v1.150.0-cluster
+# victoriametrics/vmstorage:v1.149.0-cluster
+# victoriametrics/vmstorage:v1.148.0-cluster
+# victoriametrics/vmstorage:v1.147.0-cluster
+# victoriametrics/vmstorage:v1.146.0-cluster
+# victoriametrics/vmstorage:v1.145.0-cluster
 
 # redis
 # docker run -v /myredis/conf:/usr/local/etc/redis --name myredis redis redis-server /usr/local/etc/redis/redis.conf
