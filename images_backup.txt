@@ -467,6 +467,7 @@
 # victoriametrics/vminsert:v1.147.0-cluster
 # victoriametrics/vminsert:v1.146.0-cluster
 # victoriametrics/vminsert:v1.145.0-cluster
+
 ### victoriametrics集群组件vmselect
 # victoriametrics/vmselect:v1.155.0-cluster
 # victoriametrics/vmselect:v1.154.1-cluster
@@ -480,6 +481,7 @@
 # victoriametrics/vmselect:v1.147.0-cluster
 # victoriametrics/vmselect:v1.146.0-cluster
 # victoriametrics/vmselect:v1.145.0-cluster
+
 ### victoriametrics集群组件vmstorage
 # victoriametrics/vmstorage:v1.155.0-cluster
 # victoriametrics/vmstorage:v1.154.1-cluster
@@ -493,6 +495,20 @@
 # victoriametrics/vmstorage:v1.147.0-cluster
 # victoriametrics/vmstorage:v1.146.0-cluster
 # victoriametrics/vmstorage:v1.145.0-cluster
+
+# victoriametrics集群组件vmstorage
+# victoriametrics/vmauth:v1.155.0
+# victoriametrics/vmauth:v1.154.1
+# victoriametrics/vmauth:v1.154.0
+# victoriametrics/vmauth:v1.153.0
+# victoriametrics/vmauth:v1.152.0
+# victoriametrics/vmauth:v1.151.0
+# victoriametrics/vmauth:v1.150.0
+# victoriametrics/vmauth:v1.149.0
+# victoriametrics/vmauth:v1.148.0
+# victoriametrics/vmauth:v1.147.0
+# victoriametrics/vmauth:v1.146.0
+# victoriametrics/vmauth:v1.145.0
 
 # redis
 # docker run -v /myredis/conf:/usr/local/etc/redis --name myredis redis redis-server /usr/local/etc/redis/redis.conf
