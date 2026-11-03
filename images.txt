@@ -1,5 +1,5 @@
 # victoriametrics vmauth
-victoriametrics/vmauth:v1.148.0
+# victoriametrics/vmauth:v1.148.0
 victoriametrics/vmauth:v1.147.0
 victoriametrics/vmauth:v1.146.0
 victoriametrics/vmauth:v1.145.0
